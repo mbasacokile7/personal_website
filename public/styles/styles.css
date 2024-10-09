@@ -1,4 +1,8 @@
 /* -------------- Body Styling -------------- */
+body{
+    color: white;
+    background-color: black;
+}
 
 
 /* -------------- NavBar Styling -------------- */
