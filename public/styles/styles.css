@@ -170,7 +170,7 @@ Buttons  - Kode Mono
 /* ---- Icons Styling ----- */
 .fa-brands{
   font-size: 45px;
-  margin: 20px 0 20px 0;
+  margin: 40px 0 20px 0;
   transition: font-size 0.8s;
   
 }
@@ -233,3 +233,7 @@ Buttons  - Kode Mono
 }
 
 /* -------------- Footer Section Styling -------------- */
+footer{
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+}
