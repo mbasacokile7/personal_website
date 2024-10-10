@@ -20,7 +20,10 @@ Buttons  - Kode Mono
     padding: 15px 30px 15px 30px;
     border-radius: 30px !important;
     color: white
-    
+}
+
+.collapse{
+  justify-content:center;
 }
 
 /*Background Styling */
@@ -46,7 +49,6 @@ Buttons  - Kode Mono
     margin: 0 auto;
     padding: 50px;
     background-color: black;
-    margin-top: 100px;
     border-radius: 25px;
     animation: mymove 2s infinite;
   }
@@ -86,6 +88,49 @@ Buttons  - Kode Mono
   font-size: 20px;
   color: #3D111C !important;
   font-weight: bold;
+}
+
+/* -------- Media Queries for landing Page -------- */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #landing-page-container{
+    margin: 160px 15px 0 15px;
+  }
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #landing-page-container{
+    margin: 180px 15px 0 15px;
+  }
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #landing-page-container{
+    margin: 0 auto;
+    margin-top: 200px;
+  }
+  
+} 
+/* FOCUS ON MOSTLY MOBILE DEVICES & TABLETS. THATS PROBABLY WHERE THESE WILL BE VIEWED MOST*/
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #landing-page-container{
+    margin: 0 auto;
+    margin-top: 250px;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #landing-page-container{
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  
 }
 
 
