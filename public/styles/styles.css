@@ -93,7 +93,7 @@ Buttons  - Kode Mono
   margin: 0 5px 0 5px;
   border-radius: 20px;
   color: white;
-  transition: font-size 1.2s;
+  transition: font-size 0.8s;
   font-family: "Kode Mono",monospace;
   font-weight: 600;
 }
@@ -158,8 +158,78 @@ Buttons  - Kode Mono
 /* -------------- Contact Section Styling -------------- */
 #contact-section{
   text-align: center;
+  margin-bottom:30px;
+  padding:15px;
+}
+
+.contact-container{
+  margin: 0 30px 0 30px;
+  padding: 0 10px 0 10px;
+}
+
+/* ---- Icons Styling ----- */
+.fa-brands{
+  font-size: 45px;
+  margin: 20px 0 20px 0;
+  transition: font-size 0.8s;
   
 }
 
+/* ---- Icon Animation ---- */
+.fa-brands:hover{
+  color: #E63E6D !important;
+  font-size: 60px;
+  
+}
+
+/* ---- Text Styling ---- */
+.heading{
+  margin-bottom: 20px;
+  font-family: "ANTA", sans-serif;
+}
+
+.content{
+  margin-bottom:30px;
+  font-family: "Afacad Flux", sans-serif;
+  font-size: 20px;
+
+}
+.contact-cta{
+  color: #E63E6D !important;
+}
+
+.contact-cta-1{
+  color:#f089a6 !important;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.social-heading{
+  margin-top: 20px;
+  font-family: "ANTA", sans-serif;
+}
+.social-content{
+  font-family: "Afacad Flux", sans-serif;
+  font-size: 18px;
+}
+/* ----- Button Styling ---- */
+.contact-btn{
+  background-color: #7D1935 !important;
+  border: none !important;
+  padding:10px 20px 10px 20px !important;
+  margin: 0 5px 0 5px;
+  border-radius: 20px;
+  color: white;
+  transition: font-size 0.8s;
+  font-family: "Kode Mono",monospace;
+  font-weight: 600;
+}
+
+.contact-btn:hover {
+  background-color: #E63E6D !important;
+  font-size: 20px;
+  color: #3D111C !important;
+  font-weight: bold;
+}
 
 /* -------------- Footer Section Styling -------------- */
