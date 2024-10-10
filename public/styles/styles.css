@@ -156,7 +156,10 @@ Buttons  - Kode Mono
 
 
 /* -------------- Contact Section Styling -------------- */
-
+#contact-section{
+  text-align: center;
+  
+}
 
 
 /* -------------- Footer Section Styling -------------- */
