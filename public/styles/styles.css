@@ -237,3 +237,13 @@ footer{
   text-align: center;
   padding: 20px 20px 20px 20px;
 }
+.footer-heading{
+  font-family: "ANTA";
+  font-size: 25px;
+  margin-top:10px;
+  margin-bottom: 0.2rem;
+}
+.footer-content{
+  font-family: "Afacad Flux", sans-serif;
+  margin-top:0
+}
