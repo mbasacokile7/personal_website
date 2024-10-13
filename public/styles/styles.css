@@ -148,13 +148,12 @@ Buttons  - Kode Mono
   
 }
 
-
-  
-
 /* -------------- Portfolio Section Styling -------------- */
 #portfolio-section{
   text-align: center;
   padding: 0 20px 0 20px;
+  height: 100vh;
+  margin-bottom: 10px;
 }
 
 .portfolio-section{
@@ -199,6 +198,42 @@ Buttons  - Kode Mono
 
 .portfolio-cta{
   color:#f089a6 !important;
+}
+/* --- Project Card Styling --- */
+.projects-intro{
+  font-family: "ANTA", sans-serif;
+  margin: 20px 0 20px 0;
+}
+.project-heading{
+  font-family: "ANTA", sans-serif;
+  margin-bottom: 10px;
+}
+
+.project-description{
+  font-family: "Afacad Flux", sans-serif ;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+/* ---- Button Styling ---- */
+.project-btn{
+  background-color: #7D1935 !important;
+  border: none !important;
+  padding:10px 20px 10px 20px !important;
+  margin: 0 5px 0 5px;
+  border-radius: 20px;
+  color: white;
+  transition: font-size 0.8s;
+  font-family: "Kode Mono",monospace;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.project-btn:hover {
+  background-color: #E63E6D !important;
+  font-size: 15px;
+  color: #3D111C !important;
+  font-weight: bold;
 }
 
 
