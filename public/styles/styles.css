@@ -152,8 +152,8 @@ Buttons  - Kode Mono
 #portfolio-section{
   text-align: center;
   padding: 0 20px 0 20px;
-  height: 100vh;
-  margin-bottom: 10px;
+  /*height: 100vh;*/
+  
 }
 
 .portfolio-section{
@@ -207,6 +207,7 @@ Buttons  - Kode Mono
 .project-heading{
   font-family: "ANTA", sans-serif;
   margin-bottom: 10px;
+  color: #E63E6D !important;
 }
 
 .project-description{
@@ -236,6 +237,50 @@ Buttons  - Kode Mono
   font-weight: bold;
 }
 
+/* -------- Media Queries -------- */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #portfolio-section{
+    margin-bottom: 50px;
+  }
+
+  .project-card{
+    margin-bottom:15px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #portfolio-section{
+    margin-bottom: 50px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #portfolio-section{
+    margin-bottom: 50px;
+
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* The Main Portfolio Section Element */
+  #portfolio-section{
+    margin-bottom: 50px;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* The Main Portfolio Section Element */
+  #portfolio-section{
+    margin-bottom: 50px;
+    height: 100vh;
+
+  }
+}
 
 
 /* -------------- Contact Section Styling -------------- */
