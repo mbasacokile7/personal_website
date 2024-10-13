@@ -1,0 +1,390 @@
+/* -------------- Body Styling -------------- */
+body{
+    color: white;
+    background-color: black;
+}
+
+/*-- FONT USAGE --*/
+/*
+Headings - ANTA Weight 400
+Copy     - Afacad Flux
+Buttons  - Kode Mono
+*/
+
+/* -------------- NavBar Styling -------------- */
+#navbar-container{
+    margin: 10px 10px 10px 10px;
+}
+
+.navbar{
+    padding: 15px 30px 15px 30px;
+    border-radius: 30px !important;
+    color: white
+}
+
+.navbar-brand{
+  font-family: "ANTA";
+  font-size: 25px;
+}
+
+.nav-list{
+  margin-right: 200px;
+  font-family: "ANTA";
+  font-size: 20px;
+}
+
+.nav-item{
+  margin: 0 10px 0 10px;
+}
+
+.collapse{
+  justify-content:center;
+}
+
+/*Background Styling */
+.background {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  padding-bottom: 30px;
+}
+
+/* -------------- Landing Page Styling -------------- */
+#landing-page{
+ text-align: center;
+ height: 100vh;
+ overflow: hidden;
+}
+
+#landing-page-container{
+    background: #000;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: black;
+    border-radius: 25px;
+    animation: mymove 2s infinite;
+  }
+/* Landing page Div Animation */
+@keyframes mymove {
+  50% {box-shadow: 0px 0px 50px #c43f3fc0;}
+}
+
+/*Text and Button Styling */
+/*Landing Page Heading */
+#landing-page-heading{
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/*Landing Page Content*/
+#landing-page-content{
+  font-family:"Afacad Flux", sans-serif;
+  font-size: 18px;
+}
+
+/*Button Styling*/
+.landing-btn{
+  background-color: #7D1935 !important;
+  border: none !important;
+  padding:10px 20px 10px 20px !important;
+  margin: 0 5px 10px 5px;
+  border-radius: 20px;
+  color: white;
+  transition: font-size 0.8s;
+  font-family: "Kode Mono",monospace;
+  font-weight: 600;
+}
+
+.landing-btn:hover {
+  background-color: #E63E6D !important;
+  font-size: 20px;
+  color: #3D111C !important;
+  font-weight: bold;
+}
+
+/* -------- Media Queries for landing Page -------- */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #landing-page-container{
+    margin: 160px 15px 0 15px;
+  }
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #landing-page-container{
+    margin: 180px 15px 0 15px;
+  }
+  
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #landing-page-container{
+    margin: 0 auto;
+    margin-top: 200px;
+  }
+  
+} 
+/* FOCUS ON MOSTLY MOBILE DEVICES & TABLETS. THATS PROBABLY WHERE THESE WILL BE VIEWED MOST*/
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #landing-page-container{
+    margin: 0 auto;
+    margin-top: 250px;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  #landing-page-container{
+    margin: 0 auto;
+    margin-top: 100px;
+  }
+  
+}
+
+/* -------------- Portfolio Section Styling -------------- */
+#portfolio-section{
+  text-align: center;
+  padding: 0 20px 0 20px;
+  /*height: 100vh;*/
+  
+}
+
+.portfolio-section{
+  margin: 10px 0 10px 0;
+}
+
+/* ---- Icon Styling ---- */
+.portfolio-section-icons{
+  font-size: 45px;
+  margin: 20px 0 40px 0;
+  transition: font-size 0.8s;
+  
+}
+
+/* ---- Icon Animation ---- */
+.portfolio-section-icons:hover{
+  color: #E63E6D !important;
+  font-size: 60px;
+  
+}
+
+/* ---- Text Styling ---- */
+.portfolio-heading{
+  font-family: "ANTA", sans-serif;
+}
+
+.portfolio-content{
+  font-family: "Afacad Flux", sans-serif ;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.portfolio-section-heading{
+  font-family: "ANTA", sans-serif;
+  color: #E63E6D !important;
+}
+
+.portfolio-section-content{
+  font-family: "Afacad Flux", sans-serif ;
+  font-size: 20px;
+}
+
+.portfolio-cta{
+  color:#f089a6 !important;
+}
+/* --- Project Card Styling --- */
+.projects-intro{
+  font-family: "ANTA", sans-serif;
+  margin: 20px 0 20px 0;
+}
+.project-heading{
+  font-family: "ANTA", sans-serif;
+  margin-bottom: 10px;
+  color: #E63E6D !important;
+}
+
+.project-description{
+  font-family: "Afacad Flux", sans-serif ;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+
+.project-tech-stack{
+  margin-bottom: 10px;
+  align-items: center !important;
+  justify-content: center ;
+}
+
+/* ---- Tech Stack Styling ---- */
+.tech-stack-icon{
+  width: 40px;
+  margin-right: 15px;
+}
+
+
+/* ---- Button Styling ---- */
+.project-btn{
+  background-color: #7D1935 !important;
+  border: none !important;
+  padding:10px 20px 10px 20px !important;
+  margin: 0 5px 0 5px;
+  border-radius: 20px;
+  color: white;
+  transition: font-size 0.8s;
+  font-family: "Kode Mono",monospace;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.project-btn:hover {
+  background-color: #E63E6D !important;
+  font-size: 15px;
+  color: #3D111C !important;
+  font-weight: bold;
+}
+
+/* -------- Media Queries -------- */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  #portfolio-section{
+    margin-bottom: 50px;
+  }
+
+  .project-card{
+    margin-bottom:15px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  #portfolio-section{
+    margin-bottom: 50px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  #portfolio-section{
+    margin-bottom: 50px;
+
+  }
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  /* The Main Portfolio Section Element */
+  #portfolio-section{
+    margin-bottom: 50px;
+  }
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  /* The Main Portfolio Section Element */
+  #portfolio-section{
+    margin-bottom: 50px;
+    height: 100vh;
+
+  }
+}
+
+
+/* -------------- Contact Section Styling -------------- */
+#contact-section{
+  text-align: center;
+  margin-bottom:30px;
+  padding: 0 20px 0 20px;
+}
+
+.contact-container{
+  margin: 0 30px 0 30px;
+  padding: 0 10px 0 10px;
+}
+
+/* ---- Icons Styling ----- */
+.fa-brands{
+  font-size: 45px;
+  margin: 40px 0 20px 0;
+  transition: font-size 0.8s;
+  
+}
+
+/* ---- Icon Animation ---- */
+.fa-brands:hover{
+  color: #E63E6D !important;
+  font-size: 60px;
+  
+}
+
+/* ---- Text Styling ---- */
+.heading{
+  margin-bottom: 20px;
+  font-family: "ANTA", sans-serif;
+}
+
+.content{
+  margin-bottom:30px;
+  font-family: "Afacad Flux", sans-serif;
+  font-size: 20px;
+
+}
+.contact-cta{
+  color: #E63E6D !important;
+}
+
+.contact-cta-1{
+  color:#f089a6 !important;
+  font-weight: 500;
+  font-size: 30px;
+}
+
+.social-heading{
+  margin-top: 20px;
+  font-family: "ANTA", sans-serif;
+}
+.social-content{
+  font-family: "Afacad Flux", sans-serif;
+  font-size: 18px;
+}
+/* ----- Button Styling ---- */
+.contact-btn{
+  background-color: #7D1935 !important;
+  border: none !important;
+  padding:10px 20px 10px 20px !important;
+  margin: 0 5px 0 5px;
+  border-radius: 20px;
+  color: white;
+  transition: font-size 0.8s;
+  font-family: "Kode Mono",monospace;
+  font-weight: 600;
+}
+
+.contact-btn:hover {
+  background-color: #E63E6D !important;
+  font-size: 20px;
+  color: #3D111C !important;
+  font-weight: bold;
+}
+
+/* -------------- Footer Section Styling -------------- */
+footer{
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+}
+.footer-heading{
+  font-family: "ANTA";
+  font-size: 25px;
+  margin-top:10px;
+  margin-bottom: 0.2rem;
+}
+.footer-content{
+  font-family: "Afacad Flux", sans-serif;
+  margin-top:0
+}
