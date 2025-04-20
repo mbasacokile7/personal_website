@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 /* -------------- Body Styling -------------- */
 body{
     color: white;
@@ -35,6 +39,7 @@ Buttons  - Kode Mono
 
 .nav-item{
   margin: 0 10px 0 10px;
+  scroll-behavior: smooth;
 }
 
 .collapse{
@@ -56,6 +61,7 @@ Buttons  - Kode Mono
  text-align: center;
  height: 100vh;
  overflow: hidden;
+ scroll-behavior: smooth;
 }
 
 #landing-page-container{
@@ -96,6 +102,7 @@ Buttons  - Kode Mono
   transition: font-size 0.8s;
   font-family: "Kode Mono",monospace;
   font-weight: 600;
+  scroll-behavior: smooth;
 }
 
 .landing-btn:hover {
@@ -103,6 +110,7 @@ Buttons  - Kode Mono
   font-size: 20px;
   color: #3D111C !important;
   font-weight: bold;
+  
 }
 
 /* -------- Media Queries for landing Page -------- */
@@ -153,6 +161,7 @@ Buttons  - Kode Mono
   text-align: center;
   padding: 40px 20px 60px 20px;
   min-height: 100vh;
+  scroll-behavior: smooth;
   
   
 }
@@ -259,6 +268,7 @@ Buttons  - Kode Mono
   text-align: center;
   margin-bottom: 30px;
   padding: 60px 20px 0 20px;
+  scroll-behavior: smooth;
 }
 
 .contact-container{
